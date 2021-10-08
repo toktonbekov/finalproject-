@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "title": "macbook air 13",
+      "color": "gold",
+      "price": 900,
+      "description": "13.3” Retina display1  Apple M1 chip  Up to 16GB unified memory  For increased performance and power efficiency  2TB Maximum configurable storage2  Up to 18 hours battery life3   2.8 lb. Weight  Touch ID",
+      "photo": "\thttps://www.apple.com/v/mac/home/bi/images/overview/compare/compare_mba__gdncw5gbxoq6_medium_2x.png",
+      "id": 1,
+      "type": "mac"
+    },
+    {
+      "title": "macbook pro 16",
+      "color": "white",
+      "price": 1300,
+      "description": "16” Retina display1  Up to Intel Core i9 processor  Up to 64GB memory  8TB Maximum configurable storage2  Up to 11 hours battery life6  720p FaceTime HD camera  4.3 lb. Weight  Touch Bar and Touch ID",
+      "photo": "https://www.apple.com/v/mac/home/bi/images/overview/compare/compare_mbp16__fykfvftfaeuu_medium_2x.png",
+      "id": 3,
+      "type": "mac"
+    },
+    {
+      "title": "ipad Air",
+      "color": "ывс",
+      "price": 600,
+      "description": "Liquid Retina display1  A14 Bionic chip  USB-C connector  4G LTE cellular2  Works with Apple Pencil (2nd generation)  Works with Magic Keyboard and Smart Keyboard Folio",
+      "photo": "\thttps://www.apple.com/v/ipad/home/bq/images/overview/compare_ipad_air__bxjv33pk6nte_large_2x.png",
+      "id": 4,
+      "type": "ipad"
+    },
+    {
+      "title": "ipad Pro",
+      "color": "red",
+      "price": 900,
+      "description": "12.9”  Liquid Retina XDR display1   M1 chip  USB-C connector with support for Thunderbolt / USB 4  5G cellular2  Works with Apple Pencil (2nd generation)  Works with Magic Keyboard and Smart Keyboard Folio",
+      "photo": "\thttps://www.apple.com/v/ipad/home/bq/images/overview/compare_ipad_pro__erf9x8mw04sy_large_2x.png",
+      "id": 5,
+      "type": "ipad"
+    },
+    {
+      "title": "macbook pro 13",
+      "color": "white",
+      "price": 1200,
+      "description": "13.3” Retina display1  Apple M1 chip  Also available with Intel Core i5 or i7 processor  Up to 16GB unified memory4   2TB Maximum configurable storage4  Up to 20 hours battery life5  3.0 lb. Weight  Touch Bar and Touch ID",
+      "photo": "https://www.apple.com/v/mac/home/bi/images/overview/compare/compare_mbp13__geounnnz6oa6_medium_2x.png",
+      "type": "mac",
+      "id": 7
+    },
+    {
+      "title": "ipad",
+      "color": "grey",
+      "price": 750,
+      "description": "10.2”  Retina display  A13 Bionic chip  Lightning connector  4G LTE cellular2  Works with Apple Pencil (1st generation)  Works with Smart Keyboard",
+      "photo": "https://www.apple.com/v/ipad/home/bq/images/overview/compare_ipad_10_2__fwgwy7jydtea_large_2x.png",
+      "type": "ipad",
+      "id": 12
+    },
+    {
+      "title": "ipad mini",
+      "color": "grey",
+      "price": 700,
+      "description": "8.3”  Liquid Retina display1  A15 Bionic chip  USB-C connector  5G cellular2  Works with Apple Pencil (2nd generation)  Works with Bluetooth keyboards",
+      "photo": "https://www.apple.com/v/ipad/home/bq/images/overview/compare_ipad_mini__czcsk9ukpeie_large_2x.png",
+      "type": "ipad",
+      "id": 13
+    },
+    {
+      "title": "iphone 13 Pro",
+      "color": "blue",
+      "price": 950,
+      "description": "6.7″ or 6.1” All-screen OLED display2 with ProMotion  Pro camera system  Telephoto, Wide, Ultra Wide  A15 Bionic chip  Fastest chip in a smartphone  Superfast 5G3  Up to 28 hours video playback4  ",
+      "photo": "https://www.apple.com/v/iphone/home/bb/images/overview/compare/compare_iphone_13_pro__etecge8yu8q6_medium_2x.jpg",
+      "type": "iphone",
+      "id": 14
+    },
+    {
+      "title": "iphone 13",
+      "color": "blue",
+      "price": 850,
+      "description": "6.1″ or 5.4″ All-screen OLED display2  Advanced dual‑camera system  Wide, Ultra Wide  A15 Bionic chip  Faster than the competition  Superfast 5G3  Up to 19 hours video playback4  Compatible with MagSafe accessories",
+      "photo": "https://www.apple.com/v/iphone/home/bb/images/overview/compare/compare_iphone_13__ejsyn7suyw02_medium_2x.jpg",
+      "type": "iphone",
+      "id": 15
+    },
+    {
+      "title": "iphone 12",
+      "color": "blue",
+      "price": 750,
+      "description": "6.1″ or 5.4″ All-screen OLED display2  Dual‑camera system  Wide, Ultra Wide  A14 Bionic chip  Superfast 5G3  Up to 17 hours video playback4  Compatible with MagSafe accessories",
+      "photo": "https://www.apple.com/v/iphone/home/bb/images/overview/compare/compare_iphone_12__edurff15kyoi_medium_2x.jpg",
+      "type": "iphone",
+      "id": 16
+    },
+    {
+      "title": "iphone SE",
+      "color": "blue",
+      "price": 650,
+      "description": "4.7″ LCD display  Single-camera system  Wide  A13 Bionic chip  4G LTE cellular3  Up to 13 hours video playback4",
+      "photo": "https://www.apple.com/v/iphone/home/bb/images/overview/compare/compare_iphone_se__bw7vzp0qauuq_medium_2x.jpg",
+      "type": "iphone",
+      "id": 17
+    }
+  ]
+}

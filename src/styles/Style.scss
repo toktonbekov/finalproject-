@@ -1,0 +1,147 @@
+.products-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-block{
+    background-color:rgba(0, 0, 0, 0.685);;
+    display: flex;
+    color: white;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    top:0;
+
+.profile-icon{
+    cursor:pointer;
+   
+}
+
+.search-block{
+    margin-left: 3%;
+}
+
+    .shop-icon{
+        position: fixed;
+        top: 0;
+        right:20px;
+    }
+    li{
+        list-style-type: none;
+        cursor: pointer;
+        margin-left: 85px;
+    }
+    .search-input{
+        background-color: #fff;
+    }
+    
+    .icon-block {
+        margin-left: 2%;
+       background-color: #fff;
+       border-radius: 25%;
+        height: 30px;
+        width: 30px;
+       .apple-icon{
+           width: 100%;
+           height: 100%;
+       }
+    }
+}
+
+a{
+    text-decoration: none;
+    color: unset
+}
+
+.filtered-products{
+    margin-top: 7%;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    Button{
+        margin-right: 1%;
+    }
+}
+
+.preferences{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+}
+
+.iphone13pro-block{
+    width: 100%;
+    height: 100%;
+    h3{
+        justify-content: center;
+        display: flex;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+
+    }
+    h1{
+        justify-content: center;
+        display: flex;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+    }
+    h4{
+        font-size:25px;
+        font-family: 'Roboto Mono', monospace;
+        display: flex;
+        justify-content: end;
+
+    }
+    .img-iphone13pro{
+        width: 100%;
+        height: 100%;
+        img{
+        width: 100%;
+        height: 70%;
+        }
+    }
+}
+
+.otstup{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+// .functions{
+//     display: flex;
+// }
+
+// .not-stars{
+// display: flex;    
+// }
+
+.stars{
+display: flex;
+margin-top: 0px;
+}
+
+.content{
+    .content-block{
+        display: flex;
+        flex-direction: row;
+        margin-left: 18%
+    }
+}
+
+.func-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fav-icon{
+    margin-left: 100px;
+}
+
+.table-fav{
+    margin-top: 10%
+}
