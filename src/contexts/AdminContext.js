@@ -27,7 +27,6 @@ const AdminContextProvider = ({ children }) => {
     const createProduct = async (newProduct) => {
         await axios.post(API, { ...newProduct, price: parseInt(newProduct.price) })
         getProduct()
-        console.log(newProduct);
     }
     const getProduct = async () => {
         const { data } = await axios(API)

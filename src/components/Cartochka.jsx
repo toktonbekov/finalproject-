@@ -99,13 +99,11 @@ export default function Cartochka({ item }) {
         }
         setStar(clickedStar)
         setRate(index + 1)
-        // console.log(star);
     }
 
     const addComment = async () => {
         await addDoc(collection(database, 'comments'), { ...comments, rate: rate })
     }
-    console.log(comments);
     const [commentsArray, setCommentsArray] = useState([])
 
     useEffect(() => {
@@ -117,7 +115,7 @@ export default function Cartochka({ item }) {
                 commentsArr.push({ ...doc.data(), id: doc.id })
             })
             setCommentsArray(commentsArr)
-            // console.log(commentsArr);
+
         })
         return () => getComments()
     }, [])
@@ -135,7 +133,7 @@ export default function Cartochka({ item }) {
     const handleClose = () => {
         setOpen(false);
     };
-    console.log(commentsArray);
+
 
     // const [modalReview, setModalReview] = useState(null)
 

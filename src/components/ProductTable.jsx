@@ -113,7 +113,6 @@ export default function ProductTable() {
                                         <StyledTableCell align="center" onClick={() => {
                                             getProductToEdit(row.id)
                                             setModal(true)
-                                            console.log(editProduct);
                                         }}>
                                             <Grid container className={classes.root}>
                                                 <Grid item xs={4}>

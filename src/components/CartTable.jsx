@@ -24,7 +24,7 @@ export default function CartTable() {
     useEffect(() => {
         getCart()
     }, [])
-    console.log(cart)
+
     function handleChange(id, count) {
         if (count < 1) {
             return

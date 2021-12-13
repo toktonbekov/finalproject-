@@ -13,7 +13,6 @@ export const useAuth = () => useContext(signInUp);
 
 const SignInUpProvider = ({ children }) => {
     const [user, setUser] = useState()
-    console.log(user);
 
     const signUp = (email, password) => {
         createUserWithEmailAndPassword(db, email, password)
@@ -25,7 +24,6 @@ const SignInUpProvider = ({ children }) => {
 
         } catch (e) {
             alert(e.response.data.message)
-            console.log(user);
         }
     }
 

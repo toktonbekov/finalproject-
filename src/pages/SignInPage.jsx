@@ -84,8 +84,7 @@ export default function SignInPage() {
 
         await login(acc.email, acc.password)
         history.push('/')
-        console.log(acc.email, acc.password);
-        console.log(e);
+
     }
     // const { login } = useContext(clientContext)
     // const [user, setUser] = useState({

@@ -8,7 +8,7 @@ const Pagination = () => {
     for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
         pageNumber.push(i)
     }
-    console.log(window)
+
     return (
         <div>
             <ul className="pagination">

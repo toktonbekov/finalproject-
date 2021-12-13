@@ -123,7 +123,6 @@ const ClientContextProvider = ({ children }) => {
     const indexOfFirstPost = indexOfLastPost - postsPerPage
     const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost)
     const totalPosts = posts.length
-    console.log(currentPosts)
 
     const changePage = (newPage) => {
         setCurrentPage(newPage)
@@ -147,27 +146,21 @@ const ClientContextProvider = ({ children }) => {
         let newLike = like.products.filter(item => item.product.id === product.id)
         if (newLike.length) {
             like.products = like.products.filter(item => item.product.id !== product.id)
-            console.log("Here added without copy")
         }
         else {
             like.products.push(newProduct)
-            console.log("Here added with copy")
         }
         localStorage.setItem("like", JSON.stringify(like))
         dispatch({
             type: "ADD_DELETE_PRODUCT_LIKE",
             payload: like.products.length
         })
-
-
-        console.log(like);
     }
     const checkProductLike = (id) => {
         let like = JSON.parse(localStorage.getItem('like'))
         if (!like) {
             return false
         }
-        console.log(like);
         let newLike = like.products.filter(item => item.product.id === id)
         return !newLike.length ? true : false
 
@@ -180,7 +173,6 @@ const ClientContextProvider = ({ children }) => {
             type: 'GET_LIKE',
             payload: like
         })
-        console.log(like);
     }
 
 

@@ -11,7 +11,6 @@ const UsedCars = () => {
     useEffect(() => {
         getProduct()
     }, [])
-    console.log(products);
 
     return (
         <><div >

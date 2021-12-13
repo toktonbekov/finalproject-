@@ -53,7 +53,6 @@ const MainPage = () => {
         }
 
     }, [type])
-    console.log(filteredProducts)
 
     //search START
     const history = useHistory()
